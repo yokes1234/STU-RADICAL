@@ -1,0 +1,93 @@
+.title {
+  font-weight: bold;
+}
+.editInput {
+  display: flex;
+  align-items: center;
+  margin: 35px 0px;
+  justify-content: space-between;
+}
+
+.labelInput {
+  font-weight: 500;
+  position: relative;
+  width: 23%;
+  font-size: 20px;
+}
+.labelInput::after {
+  content: ":";
+  color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.aboutLabel {
+  width: 70%;
+}
+.inputSpace.textAreaWidth {
+  width: 100%;
+  margin-bottom: 40px;
+ 
+}
+.input {
+  width: 57%;
+  padding: 4px;
+  outline: none;
+  border: 1px solid #b9b4b4;
+}
+.input:active {
+  outline: none;
+}
+.btnSubmit {
+  font-size: 18px;
+  font-family: 600;
+  background-color: #000;
+  padding: 6px 47px;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btnArrow {
+  margin: 8px 0px 0 12px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: #44444a;
+}
+
+
+
+.dob-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dob-apply {
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  margin: 12px 12px 12px 15px;
+  padding: 1px 20px;
+}
+.dob-cancel {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  margin: 12px 15px;
+  border-radius: 20px;
+  padding: 1px 18px;
+}
+.inputSpace {
+  padding: 10px 20px;
+  border-color: #ccc;
+  border-radius: 5px;
+  width: 320px;
+}
+.inputSpace::placeholder {
+  color: #ccc;
+}
+
+
